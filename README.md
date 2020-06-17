@@ -1,5 +1,5 @@
 # immaf-website
-#initial review
+# initial review
 -Used Bootstrap 4 (obviously, duh) for the website.
 -Not sure if the media queries are the problem with the responsiveness and will continue to work on this during the next few weeks.
 -Display is a major concern: does not render too well on screens with a width below 350 I guess;

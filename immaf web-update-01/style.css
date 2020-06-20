@@ -185,78 +185,131 @@ body {
 }
 /* ---------------------------------------- END OF NOT-HOME PAGE GENERAL ------------------------------- */
 
-/* ///////////////////////////////////////// MEDIA QUERIES ////////////////////////////////// */
-@media (max-width: 1050px) {
-    body {
-        /* background: blue; */
-        font-size: 100%;
-    }
-    #intro .develop {
-        margin-left: -200px;
-    }
-    .about2 {
-        /* background: green; */
-        padding-top: 2.5rem;
-    }
-}
-@media (max-width: 768px) {
-    /* body {
-        background: red;
-    } */
-    .navbar {
-        background: #784ba0;
-    }
-    .covid-png {
-        margin-top: -90px;
-    }
-    #info {
-        text-align: center;
-    }
-    #intro .develop {
-        margin-left: -150px;
-        margin-right: 20px;
-        min-height: 250px;
-    }
-    #intro .work {
-        max-width: 150px;
-        min-height: 250px;
-    }
-    /* .about2 {
-        background: darkmagenta;
-    } */
-}
-@media (max-width: 650px) {
-    body {
-        /* background: #784ba0; */
+
+/* ////////////////////////////////////// MEDIA QUERIES:Phones ////////////////////////////// */
+
+/*//////////////////// portrait ////////////////////*/
+@media only screen  
+  and (max-device-width: 319px)
+  and (orientation: portrait) {
+    body{
         font-size: 95%;
     }
-    .display-2 {
-        font-size: 350%;
+    .display-2{
+        font-size: 3.2rem;
     }
-    .brand-underline {
-        height: .4rem;
-    }
-    #intro .develop {
-        margin-left: -100px;
-    }
-    #home-about {
-        height: 45vh;
-    }
-    #home-about .dark-overlay::after {
-        box-shadow: inset 1000px 200px 200px rgba(0, 0, 0, .7);
-    }
-    .about1 {
-        padding: 1rem 1rem 2rem 1rem;
-    }
-    .about2 {
-        margin-left: 4%;
-        margin-right: 4%;
+    .lead{
+        font-size: 1.2rem;
     }
 }
-@media (max-width: 325px) {
-    body {
-        font-size: 80%;
-        font-weight: 700;
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 670px)
+  and (orientation: portrait) {
+    body{
+        font-size: 95%;
+    }
+    .display-2{
+        font-size: 3.7rem;
+    }
+    .lead{
+        font-size: 1.25rem;
     }
 }
-/* ////////////////////////////////////// END OF MEDIA QUERIES ////////////////////////////// */
+
+@media only screen 
+  and (min-device-width: 380px) 
+  and (max-device-width: 670px)
+  and (orientation: portrait) {
+    body{
+        font-size: 95%;
+    }
+    .display-2{
+        font-size: 4.5rem;
+    }
+    .lead{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 670px)
+  and (orientation: portrait) {
+    body{
+        font-size: 95%;
+    }
+    .display-2{
+        font-size: 5.3rem;
+    }
+    .lead{
+        font-size: 1.6rem;
+    }
+}
+
+
+/*//////////////////// Landscape ////////////////////*/
+
+@media only screen 
+  and (max-device-width: 319px)
+  and (orientation: landscape) {
+    body{
+        font-size: 95%;
+    }
+    .display-2{
+        font-size: 250%;
+    }
+    .lead{
+        font-size: 100%;
+    }
+
+    #showcase{
+        height: 120vh;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 670px)
+  and (orientation: landscape) {
+    body{
+        font-size: 95%;
+    }
+    .display-2{
+        font-size: 3.5rem;
+    }
+    .lead{
+        font-size: 1.35rem;
+    }
+    #showcase{
+        height: 140vh;
+    }
+    
+}
+/* ////////////////////////////////////// END OF MEDIA QUERIES:Phones ////////////////////////////// */
+/* ////////////////////////////////////// MEDIA QUERIES:Tablets ////////////////////////////// */
+
+/*//////////////////// portrait ////////////////////*/
+@media only screen 
+  and (min-device-width: 700px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) {
+    .info-image{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .info-text{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+/*//////////////////// landscape ////////////////////*/
+@media only screen 
+  and (min-device-width: 700px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) {
+}
+/* ////////////////////////////////////// END OF MEDIA QUERIES:Tablets ////////////////////////////// */

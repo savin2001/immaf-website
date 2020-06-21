@@ -131,7 +131,6 @@ body {
 
 /* --------------------------------------------- SPECIAL PAGE ------------------------------------------ */
 #covid-page-header {
-    height: 30vh;
     background: url("images/covidheader.jpg");
     background-repeat: no-repeat;
     background-size: cover;
